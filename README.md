@@ -20,3 +20,16 @@ This project applies predictive analytics to the Indian UPI (Unified Payments In
 - 10,000 transaction records across 19 attributes.
 - Features: transaction amount, frequency, device ID, location, failed attempts, etc.
 - Source: Kaggle & Simulated dataset (for testing the model).
+
+## Methodology
+1. **Data Collection & Preprocessing**
+   - Handled missing values, encoded categorical data, scaled features.
+2. **Exploratory Data Analysis**
+   - Detected outliers, correlations, and feature relationships.
+3. **Model Building**
+   - Simple Linear Regression for demand forecasting.
+   - Logistic Regression for fraud detection.
+4. **Model Evaluation**
+   - SLR: R², RMSE.
+   - Logistic Regression: Accuracy, Precision, Recall, F1-score, ROC-AUC.
+  

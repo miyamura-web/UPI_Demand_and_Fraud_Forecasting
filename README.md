@@ -3,21 +3,19 @@
 ## 🧾 Introduction :
 This project applies predictive analytics to the Indian UPI (Unified Payments Interface) ecosystem to forecast transaction demand and detect potential fraud. It combines **Simple Linear Regression** for demand forecasting and **Logistic Regression** for fraud classification, providing a dual perspective on digital payment trends and risks.
 
-
-
 ## 📂 Repository Structure
 ```
 ├── data/
 │   ├── UPI Demand Prediction data.xlsx
 │   ├── UPI Fraud Prediction data.csv
-│   ├── UPI Fraud Prediction data.csv
+│   ├── UPI Fraud model testing data.xlsx
 ├── notebooks/
 │   ├── demand_forecasting.ipynb
 │   ├── fraud_detection.ipynb
 ├── visuals/
 │   ├── correlation_heatmap.png
 │   ├── roc_curve.png
-├── Report_Writing_trial.pdf
+├── Report_Writing_trial.pdf   [ A detailed report on the project ]
 └── README.md
 ```
 
@@ -28,7 +26,10 @@ This project applies predictive analytics to the Indian UPI (Unified Payments In
 - Generate actionable insights for fintech and policymakers.
 
 
-## 📊 Datasets 
+## 🧾 Report :
+You can see the attach file "Report_writing_trial.pdf" for detailed report, or here is a short summary of the report -
+
+### 📊 Datasets 
 #### UPI Demand Forecasting Dataset
 - 84 monthly observations (2018–2024) with 11 features.
 - Features: GDP growth, smartphone penetration, internet users, POS terminals, PMJDY accounts, repo rate, etc.
@@ -39,7 +40,7 @@ This project applies predictive analytics to the Indian UPI (Unified Payments In
 - Features: transaction amount, frequency, device ID, location, failed attempts, etc.
 - Source: Kaggle & Simulated dataset (for testing the model).
 
-## ⚙️ Methodology
+### ⚙️ Methodology
 1. **Data Collection & Preprocessing**
    - Handled missing values, encoded categorical data, scaled features.
 2. **Exploratory Data Analysis**
@@ -52,14 +53,14 @@ This project applies predictive analytics to the Indian UPI (Unified Payments In
    - Logistic Regression: Accuracy, Precision, Recall, F1-score, ROC-AUC.
 
 
-## 📈 Exploratory Data Analysis
+### 📈 Exploratory Data Analysis
 - No missing values in either dataset.
 - Detected outliers using boxplots and Z-scores.
 - High correlation between internet usage, smartphone penetration, and UPI demand.
 - Visualizations: heatmaps, scatterplots, boxplots.
 
 
-## 🤖 Modeling & Results
+### 🤖 Modeling & Results
 #### UPI Demand Forecasting (Simple Linear Regression)
 - **Significant Predictors:** Smartphone Penetration (p<0.001), Internet Users (p=0.005), PMJDY Accounts (p=0.017)
 - **Model Performance:** R² = 0.998, Adj R² = 0.997
@@ -71,14 +72,14 @@ This project applies predictive analytics to the Indian UPI (Unified Payments In
 - **Precision (Fraud):** 0.78 | **Recall (Fraud):** 0.80 | **F1-score:** 0.79
 - Detected 84 users with >70% fraud probability.
 
-## 🔍 Key Insights 
+### 🔍 Key Insights 
 - Smartphone and internet penetration are the strongest drivers of UPI growth.
 - Seasonal spikes correspond with festivals and e-commerce events.
 - Failed login attempts and high-risk geolocations are major fraud predictors.
 - Predictive analytics can significantly improve proactive fraud monitoring.
 
 
-## 💡 Conclusions 
+## 💡 Conclusions & Recommendations
 **Conclusions:**
 - Predictive analytics provides actionable insights for both demand and fraud patterns.
 - Regularized regression models improve stability and interpretability.

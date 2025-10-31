@@ -8,7 +8,7 @@ This project applies predictive analytics to the Indian UPI (Unified Payments In
 ## 📂 Repository Structure
 ```
 ├── data/
-│   ├── upi_demand.csv
+│   ├── UPI Demand Prediction data.xlsx
 │   ├── upi_fraud.csv
 ├── notebooks/
 │   ├── demand_forecasting.ipynb

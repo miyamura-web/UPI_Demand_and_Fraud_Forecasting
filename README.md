@@ -29,6 +29,8 @@ This project applies predictive analytics to the Indian UPI (Unified Payments In
 ## 🧾 Report :
 You can see the attach file "Report_writing_trial.pdf" for detailed report, or here is a short summary of the report -
 
+---
+
 ### 📊 Datasets 
 #### UPI Demand Forecasting Dataset
 - 84 monthly observations (2018–2024) with 11 features.
@@ -39,6 +41,8 @@ You can see the attach file "Report_writing_trial.pdf" for detailed report, or h
 - 10,000 transaction records across 19 attributes.
 - Features: transaction amount, frequency, device ID, location, failed attempts, etc.
 - Source: Kaggle & Simulated dataset (for testing the model).
+  
+----
 
 ### ⚙️ Methodology
 1. **Data Collection & Preprocessing**
@@ -52,6 +56,7 @@ You can see the attach file "Report_writing_trial.pdf" for detailed report, or h
    - SLR: R², RMSE.
    - Logistic Regression: Accuracy, Precision, Recall, F1-score, ROC-AUC.
 
+---
 
 ### 📈 Exploratory Data Analysis
 - No missing values in either dataset.
@@ -59,6 +64,7 @@ You can see the attach file "Report_writing_trial.pdf" for detailed report, or h
 - High correlation between internet usage, smartphone penetration, and UPI demand.
 - Visualizations: heatmaps, scatterplots, boxplots.
 
+---
 
 ### 🤖 Modeling & Results
 #### UPI Demand Forecasting (Simple Linear Regression)
@@ -72,12 +78,15 @@ You can see the attach file "Report_writing_trial.pdf" for detailed report, or h
 - **Precision (Fraud):** 0.78 | **Recall (Fraud):** 0.80 | **F1-score:** 0.79
 - Detected 84 users with >70% fraud probability.
 
+---
+
 ### 🔍 Key Insights 
 - Smartphone and internet penetration are the strongest drivers of UPI growth.
 - Seasonal spikes correspond with festivals and e-commerce events.
 - Failed login attempts and high-risk geolocations are major fraud predictors.
 - Predictive analytics can significantly improve proactive fraud monitoring.
 
+---
 
 ## 💡 Conclusions & Recommendations
 **Conclusions:**

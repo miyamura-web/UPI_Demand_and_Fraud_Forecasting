@@ -13,7 +13,7 @@ This project applies predictive analytics to the Indian UPI (Unified Payments In
 │   ├── demand_forecasting.ipynb
 │   ├── fraud_detection.ipynb
 ├── Report on UPI Project.pdf   [ A detailed report on the project ]
-├── Report on UPI Project.pdf 
+├── Executive Summary.pdf     [ Summary of fthe project ]
 └── README.md
 ```
 

@@ -68,7 +68,7 @@ You can see the attach file "Report on UPI Project.pdf" for detailed report, or 
 #### UPI Demand Forecasting (Simple Linear Regression)
 - **Significant Predictors:** Smartphone Penetration (p<0.001), Internet Users (p=0.005), PMJDY Accounts (p=0.017)
 - **Model Performance:** R² = 0.998, Adj R² = 0.997
-- **Predicted UPI Demand (2025):** ≈ 272.25 million transactions
+- **Predicted UPI Demand (Jan 2025):** ≈ 272.25 million transactions
 
 #### UPI Fraud Detection (Logistic Regression)
 - **Significant Predictors:** FailedAttempts, LocationRiskScore, Amount
